@@ -2,6 +2,53 @@
 <html>
 	<head>
 		<title>My Portfolio</title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+				text-decoration: none;
+				list-style: none;
+				box-sizing: border-box;
+			}
+			main{
+				align-content:center;
+			}
+			body{
+				background-color:#dfd5ed;
+			}
+			header{
+				background-color:#26222e;
+				color:white;
+				width:100%;
+				height:100px;
+				padding:25px;
+				
+			}
+			aside{
+				boder-style:none;
+				float:right;
+				width:20%;
+				padding:50px;
+			}
+			nav{
+				margin-top:50px;
+				border-style:none;
+				padding:25px;
+			}
+			.about,.Skills,.education,.certificate{
+				margin-left:20px;
+				border-style:solid;
+				boder-width:3px;
+				boder-color:#7b3ce8;
+				boder-radius:10px;
+				width:80%;
+				height:250px;
+				padding:25px;
+			}
+			
+			
+			
+		</style>
 	</head>
 	<body>
 		<header>
@@ -10,60 +57,59 @@
 		</header>
 		<main>
 			
-			<aside width: "200px">
-			<img align="left" width="170px" height="200px" src="images.jpg"></br></br>
+			<aside>
+			<img width="200px" height="250px" src="E:\2.2 my\web technologies\cv\images.jpg">
 				<nav>
-				<fieldset align="center">
-				<section >
-					<h3><u>Contact</u></h3>
+				<section>
+					<h2>Contact</h2></br>
 					<ul>
-						<li><a href="+94762711092">📞Phone</a></li>
-						<li><a href="mailto:shashinika@gmail.com">📩E-Mail</a></li>
+						<li><a href="+94762711093">📞Phone</a></li>
+						<li><a href="mailto:shashinikakherath@gmail.com">📩E-Mail</a></li>
 						<li><a href="www.linkedin.com/in/shashinika-herath">📲LinkedIn</a></li>
 					</ul>
-				</section><hr>
+				</section></br>
+				
 				<section>
 					<dl>
-					<dt><h3><u>Languages</u></h3></dt>
+					<dt><h2>Languages</h2></dt></br>
 						<dd>-English</dd>
 						<dd>-Sinhala</dd>
 						<dd>-Tamil</dd>
 					</dl>
-					</section>
+				</section>
 				</nav>
 			</aside>
+			
 			<article>
-			<section>
-			<hr>
-				<h3 align="center"><u>About</u><h3>
-				<hr>
+			</br>
+			<section class="about">
+				<h2>About<h2></br>
 				<p>Computer science undergraduate with a strong foundation in Python, Java, SQL, and database design. Passionate about building reliable and maintainable systems . Experienced in web development.</p>
-			</section>
-			<section>
-			<hr>
-				<h3 align="center"><u>Skills</u><h3>
-				<hr>
+			</section></br>
+			
+			<section class="skills">
+				<h2>Skills<h2></br>
 				<ul>
 					<li>Java (data manipulation, automation, debugging, oop)</li>
 					<li>Python (data manipulation, automation, debugging)</li>
 					<li>SQL (complex queries, integrity constraints, schema design)</li>
 					<li>HTML & CSS (web page structuring and styling)</li>
 				</ul>
-			</section>
-			<section>
-			<hr>
-				<h3 align="center"><u>Education</u><h3>
-				<hr>
+			</section></br>
+			
+			<section class="education">
+				<h2>Education<h2></br>
 				<p><b>BSc in computer science</b></br>University of Jaffna, Sri Lanka</br>2023 – 2027 (Expected)</p>
-			</section>
-			<hr>
-			<h3 align="center"><u>Certification</u><h3>
-			<hr>
+			</section></br>
+			
+			<section class="certificate">
+			<h2>Certification<h2></br>
 				<ul>
 					<li>Python for Beginners </br>-CODL, University of Moratuwa, Sri Lanka</li>
 				</ul>
 			</section>
 			</article>
+			
 		</main>
 	</body>
 </html>
